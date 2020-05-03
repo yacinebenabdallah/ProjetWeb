@@ -1,0 +1,50 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form method="GET" action="ajouterBlog.php">
+            <table width="50%" align="center"> 
+            <caption>Ajouter blog</caption>
+            <tr>
+            <td>id</td>
+            <td><input type="text" name="id" disabled="yes"  value="Automatique"></td>
+            </tr>
+            <tr>
+            <td>titre</td>
+            <td><input type="text" name="titre" value="veuiller saisir le titre de votre article" onfocus="this.value=''"></td>
+            </tr>
+            <tr>
+            <td>article</td>
+            <td><textarea name="article" rows="10" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td>image</td>
+                <td><input  name="img" type="file" > </td>
+            </tr>
+            <tr>
+                <td>hachtag</td>
+                <td><input type="text" name="hachtag"></td>
+            </tr>
+            <tr>
+                <td>categorie</td>
+                <td><select name="categorie">
+                    <option>none</option>
+                    <option>web</option>
+                    <option>graphique</option>
+                    <option>technologie</option>
+                </select></td>
+            </tr>
+            <tr>
+            <td></td>
+            <td>
+                <input type="submit" name="ajouter" value="ajouter">
+                 <a href="afficherBlog.php"><button type="submit" name="afficherblog">afficher BLOG</button></a>
+            </td>
+            </tr>
+            </table>
+            </form>
+
+            </body>
+    </body>
+</html>
