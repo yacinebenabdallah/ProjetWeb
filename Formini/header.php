@@ -3,26 +3,26 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Eduhome</title>
+        <title>Formini - Online Education & Courses</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/meanmenu.css">
-        <link rel="stylesheet" href="css/magnific-popup.css">
-        <link rel="stylesheet" href="css/owl.carousel.min.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/et-line-icon.css">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/ionicons.min.css">
-        <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/meanmenu.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/et-line-icon.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -55,7 +55,7 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-3 col-xs-6">
                             <div class="logo">
-                                <a href="index.php"><img src="img/logo/logo2.png" alt="eduhome" /></a>
+                                <a href="index.html"><img src="img/logo/logo2.png" alt="eduhome" /></a>
                             </div>
                         </div>
                         <div class="col-md-9 col-sm-9 col-xs-6">
@@ -67,17 +67,14 @@
                                             <li><a href="index.html">Home</a>
                                             </li>
                                             <li><a href="about.php">About</a></li>
-                                            <li><a href="course.php">courses</a>
+                                            <li><a href="courses.php">courses</a>
                                                 <ul>
-                                                    <li><a href="course.php">courses</a></li>
+                                                    <li><a href="courses.php">courses</a></li>
                                                     <li><a href="course-details.php">courses details</a></li>
+                                                    <li><a href="packs.php">packs</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="event.php">event</a>
-                                                <ul>
-                                                    <li><a href="event.php">event</a></li>
-                                                    <li><a href="event-details.php">event details</a></li>
-                                                </ul>
                                             </li>
                                             <li class="hidden-sm"><a href="teacher.php">teacher</a>
                                                 <ul>

@@ -1,4 +1,5 @@
-<?php	
+<?php
+	
 $name = $_POST['name'];
 $email_address = $_POST['email'];
 $message = $_POST['message'];
@@ -15,8 +16,8 @@ $headers="From:<$email_address>\n";
 $headers.="Content-Type:text/html; charset=UTF-8";
 if($email_address != "") {
 	mail($to,$email_sub,$email_body,$headers);
+	header("Location: http://localhost/Formini/contact.php");
 	return true;
-
 }
 
 ?>
